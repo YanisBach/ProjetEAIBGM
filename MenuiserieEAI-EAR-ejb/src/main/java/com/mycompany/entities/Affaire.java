@@ -25,7 +25,8 @@ public class Affaire implements Serializable {
     private String referenceCatalogue;
     private String coteExactes;
     private int montantAEncaisser;
-
+    private Long attributtest;
+    // Test
 
     public Affaire(Long numA, int numClient, String adresseA, String etatA, int montantA) {
         this.numA = numA;
